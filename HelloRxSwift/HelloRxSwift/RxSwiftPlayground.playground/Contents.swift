@@ -27,6 +27,13 @@ observable3.subscribe { event in
 }
 
 // MARK: - access to values
-observable4.subscribe(onNext: { element in
+let subscription4 = observable4.subscribe(onNext: { element in
 	print(element)
 })
+
+// MARK: - dispose observable
+// dispose 하는 이유 : memory leak
+subscription4.dispose()
+
+// MARK: - create + subscribe + dispose observable
+
