@@ -3,21 +3,21 @@ studying RxSwift - udemy lecture
 
 <br/>
 
-<div align="right">작성일 : 2023-03-19</div>
+2023-03-19 <br/>
+https://github.com/jkim68888/RxSwift/blob/main/HelloRxSwift/HelloRxSwift/RxSwiftPlayground.playground/Contents.swift
 
-<br/>
+
 
 > Reactive Programming
 
-<br/>
 
-## swift / ios
+## Swift
 - Notification Center
 - Delegate Pattern
 - Grand Central Dispatch
 - Closures
 
-<br/>
+
 
 ## RxSwift
 
