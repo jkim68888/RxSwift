@@ -29,7 +29,6 @@ https://github.com/jkim68888/RxSwift/blob/main/HelloRxSwift/HelloRxSwift/RxSwift
 
 - observable == sequence == observable sequence
 
-
 - Sequence
     
     > observable이 될 수 있는 데이터 타입이다.
@@ -39,12 +38,12 @@ https://github.com/jkim68888/RxSwift/blob/main/HelloRxSwift/HelloRxSwift/RxSwift
     - completed : 이벤트 종료 (완료)
     - error : 이벤트에 오류가 있어서 이벤트를 중간에 종료
     
-- Subscribe
+### Subscribe
     
-    > 옵저버에 대한 구독
-    > 
-- Dispose
+> 옵저버에 대한 구독
+
+### Dispose
     
-    > 옵저버에 대한 구독 해제
+> 옵저버에 대한 구독 해제
      
-    -  dispose하는 이유 : memory leak 방지
+-  dispose하는 이유 : memory leak 방지
