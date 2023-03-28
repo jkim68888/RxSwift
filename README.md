@@ -46,7 +46,7 @@ studying RxSwift - udemy lecture
 [2023-03-28](HelloRxSwift/HelloRxSwift/RxSwiftPlayground.playground/Pages/Practice2.xcplaygroundpage/Contents.swift) 
 <br/>
 
-## Subscribe
+## Subject
 
 ### Publish Subject
 
