@@ -34,6 +34,3 @@ let subscription4 = observable4.subscribe(onNext: { element in
 // MARK: - dispose observable
 // dispose 하는 이유 : memory leak
 subscription4.dispose()
-
-// MARK: - create + subscribe + dispose observable
-

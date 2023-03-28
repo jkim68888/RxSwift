@@ -3,13 +3,10 @@ studying RxSwift - udemy lecture
 
 <br/>
 
-2023-03-19 <br/>
-https://github.com/jkim68888/RxSwift/blob/main/HelloRxSwift/HelloRxSwift/RxSwiftPlayground.playground/Contents.swift
-
-
+[2023-03-19](HelloRxSwift/HelloRxSwift/RxSwiftPlayground.playground/Pages/practice1.xcplaygroundpage/Contents.swift) 
+<br/>
 
 > Reactive Programming
-
 
 ## Swift
 - Notification Center
@@ -17,13 +14,9 @@ https://github.com/jkim68888/RxSwift/blob/main/HelloRxSwift/HelloRxSwift/RxSwift
 - Grand Central Dispatch
 - Closures
 
-
-
 ## RxSwift
 
 ### Observables
-
-<br/>
     
 > observable은 이벤트를 생성할 수 있는 대상이다.
 
@@ -47,3 +40,16 @@ https://github.com/jkim68888/RxSwift/blob/main/HelloRxSwift/HelloRxSwift/RxSwift
 > 옵저버에 대한 구독 해제
      
 -  dispose하는 이유 : memory leak 방지
+
+<br/>
+
+[2023-03-28](HelloRxSwift/HelloRxSwift/RxSwiftPlayground.playground/Pages/Practice2.xcplaygroundpage/Contents.swift) 
+<br/>
+
+## Subscribe
+
+### Publish Subject
+
+> subscribe & emit events (구독 및 이벤트 생성)
+
+<!-- ### Behavior Subject, Replay Subject, Variable, BehavioRelay -->
