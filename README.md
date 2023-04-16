@@ -52,4 +52,35 @@ studying RxSwift - udemy lecture
 
 > subscribe & emit events (구독 및 이벤트 생성)
 
-<!-- ### Behavior Subject, Replay Subject, Variable, BehavioRelay -->
+[2023-04-16](HelloRxSwift/HelloRxSwift/RxSwiftPlayground.playground/Pages/Practice3.xcplaygroundpage/Contents.swift) 
+<br/>
+
+### Behavior Subject
+
+> automatically emit last value
+
+### Replay Subject
+
+> 마지막에 방출된 값을 버퍼사이즈에 따라 replay한다.
+
+### Variable
+
+> string 등의 요소를 할당 가능. 또는 요소를 append하여 배열로 구독 가능.
+
+deprecated -> Behavior Relay로 대체됨.
+
+Behavior Replay는 RxCocoa를 설치해야 사용 가능.
+
+### Behavior Relay
+
+> value를 바로 할당 불가능. accept()로 value를 할당.
+
+## Operators
+
+### Filtering Operators
+
+> ignoreElements, elementAt, filter, skip, skipWhile, skipUntil, take, takeWhile, takeUntil
+
+<!-- ### Transforming Operators
+
+> toArray,  -->
